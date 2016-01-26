@@ -1,4 +1,14 @@
-@media screen and(max-width: 1200px){
+@media screen and(max-width: 959px){
+  .image_float{
+    &.right{
+      float: none;
+      display: inline-block;
+      margin-left: 0;
+    }
+  }
+  .b-video{
+    margin: 20px auto;
+  }
 
 }
 
