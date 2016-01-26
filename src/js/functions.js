@@ -148,7 +148,7 @@ jQuery(document).ready(function($) {
         }
     });
 	
-	$('table').wrap('<div class="table_wrap"></div>');
+	//$('table').wrap('<div class="table_wrap"></div>');
 	
 	if ($(window).width()<961){
 		$(".crp_container img").attr("src", "images/crp_mobile.png");
