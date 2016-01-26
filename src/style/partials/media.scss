@@ -9,6 +9,58 @@
   .b-video{
     margin: 20px auto;
   }
+  .daily-rent{
+    text-align: center;
+    .item{
+      float: none;
+      display: inline-block;
+      width: 42%;
+      margin: 0 20px 30px;
+    }
+  }
+}
+
+@media screen and(max-width: 850px){
+
+  .daily-rent{
+    .item{
+      width: 80%;
+      h4{
+        width:70%;
+        display: inline-block;
+      }
+    }
+  }
+  .b-text{
+    .right,.left{
+      float: none;
+      width:100%;
+    }
+  }
 
 }
 
+@media screen and(max-width: 570px){
+  .daily-rent{
+    .item{
+      h4{
+        width:100%;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 500px){
+  .daily-rent{
+    .item{
+      width: 100%;
+      margin: 0 0 30px;
+      h4{
+        padding-left: 0;
+      }
+    }
+    ul{
+      padding: 0 0 0 10px;
+    }
+  }
+}
