@@ -125,10 +125,8 @@ i{
     margin: 0 0 25px 50px;
   }
 }
-p{
-  &.clear{
-    padding-bottom: 100px;
-  }
+.pad-bot{
+    padding-bottom: 100px!important;
 }
 
 .text-center{
@@ -247,7 +245,8 @@ p{
   }
 }
 i.bol-color{
-  font-weight: 500;
+  font-weight: 700;
+  font-family: 'PT Serif';
 }
 
 .style-b{
@@ -346,7 +345,48 @@ i.bol-color{
 }
 
 .big-list{
-
+  display:table;
+  padding: 12px 0;
+  li{
+    font-size: 16px;
+    position: relative;
+    margin: 0 0 22px;
+    &:before{
+      content: '';
+      width: 165px;
+      height:1px;
+      background-color: #e4ceab;
+      position: absolute;
+      bottom:0;
+      left: 50%;
+      margin-left: -85px;
+    }
+  }
+  .number{
+    width: 16%;
+    background: url(../images/big-list-number.png) 0 0 no-repeat;
+    display: inline-block;
+    height: 183px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'PT Serif';
+    color: $gray-light;
+    padding: 5% 0 0;
+  }
+  p{
+    padding: 0 0 0 3%;
+    vertical-align:middle;
+    display:table-cell;
+    height:209px;
+    strong{
+      color: $gray-light;
+      display: block;
+      font-family: 'PT Serif';
+      margin-bottom:25px;
+    }
+  }
 }
 
 
