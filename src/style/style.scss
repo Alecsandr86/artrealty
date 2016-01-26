@@ -1,7 +1,7 @@
 /********************************
 *      ДОПОЛНИТЕЛЬНЫЕ СТИЛИ
 *********************************/
-@import "../../bower_components/normalize.css/normalize.css";
+//@import "../../bower_components/normalize.css/normalize.css";
 //@import "../../bower_components/bootstrap/scss/bootstrap";
 //@import "../../bower_components/Swiper/dist/css/swiper.min.css";
 
@@ -47,7 +47,7 @@ i{
 *           ШРИФТЫ
 ********************************/
 
-@include font-face("etelka-pro", "../fonts/etelka-text-pro-bold", "etelka-text-pro-bold");
+//@include font-face("etelka-pro", "../fonts/etelka-text-pro-bold", "etelka-text-pro-bold");
 
 /********************************
 *          \ ШРИФТЫ\
@@ -59,7 +59,9 @@ i{
 /********************************
 *       ОСНОВНЫЕ СТИЛИ
 ********************************/
-
+.bol-color{
+  color: $gray-light;
+}
 
 
 

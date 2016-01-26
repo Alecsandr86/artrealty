@@ -1,5 +1,38 @@
+<div id="footer">
+    <div  class="content_width">
 
-        <script src="js/main.js"></script>
+        <div id="footer_feedback">
+            <div class="corners corners_left"></div>
+            <div class="corners corners_right"></div>
+            <form id="feedback_form" method="post" action="processform.php">
+                <h3>Форма обратной связи</h3>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <input type="text" name="name" placeholder="Ваше имя" />
+                        <input type="email" name="email" placeholder="Ваш e-mail" />
+                    </div>
+                    <div class="col-sm-6">
+                        <textarea placeholder="Сообщение" name="msg"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="submit clear">Отправить</button>
+                <div class="sent_result" id="sendresult1"></div>
+            </form>
+        </div>
 
-    </body>
+        <nav id="footer_menu">
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Предложение</a></li>
+                <li><a href="#">Инвесторам</a></li>
+                <li><a href="#">Партнерам</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Наши партнеры</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+</div><!--End page wrapper-->
+</body>
 </html>
