@@ -363,7 +363,7 @@ i.bol-color{
     }
   }
   .number{
-    width: 16%;
+    width: 185px;
     background: url(../images/big-list-number.png) 0 0 no-repeat;
     display: inline-block;
     height: 183px;
@@ -373,7 +373,7 @@ i.bol-color{
     font-size: 60px;
     font-family: 'PT Serif';
     color: $gray-light;
-    padding: 5% 0 0;
+    padding: 55px 0 0;
   }
   p{
     width:100%;
@@ -389,6 +389,60 @@ i.bol-color{
     }
   }
 }
+
+.return-number{
+  margin: 0;
+  text-align: center;
+  padding: 46px 0 117px;
+  .h1{
+    padding: 10px 0 42px;
+  }
+  p{
+    font-weight: normal;
+    padding: 28px 0 0;
+  }
+}
+
+.return-table{
+  background: url(../images/return-table.png) center center no-repeat;
+  margin: 41px 0 18px;
+  ul{
+    width:435px;
+    margin:0 auto;
+    li{
+      padding: 14px 26px;
+      text-align: left;
+      &:nth-child(odd){
+        background-color: #ead8be;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
