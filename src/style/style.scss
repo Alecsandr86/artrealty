@@ -421,14 +421,51 @@ i.bol-color{
 
 
 
+.list-decimal{
+  list-style-type: decimal;
+  padding: 0px 0 10px 26px;
+  li{
+    list-style-type: decimal;
+    font-size:24px;
+    color: $gray-light;
+    font-family: 'PT Serif';
+    font-weight: 500;
+    margin: 0 0 24px;
+    span{
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      color: #323232;
+      font-weight: 400;
+      display: inline-block;
+      margin:0 0 0 11px;
+    }
+  }
+}
+.marg-bot-cont{
+  margin-bottom: 61px;
+}
 
+.figure-3{
+  width:37%;
+  img{
+    margin: 29px 0 0 -75px;
+  }
+}
+.title-figure{
+  width:63%;
+  text-align: left;
+  font-weight: normal;
+}
 
-
-
-
-
-
-
+.mar-h1-bot{
+  margin-bottom:50px;
+}
+.page_content{
+  .h1{
+    font-size:42px;
+    padding: 7px 0 34px;
+  }
+}
 
 
 

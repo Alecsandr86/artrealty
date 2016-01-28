@@ -52,10 +52,17 @@
       }
     }
   }
+
   .b-text{
     .right,.left{
       float: none;
       width:100%;
+    }
+  }
+
+  .figure-3{
+    img{
+      margin:20px 0 0 0;
     }
   }
 
@@ -91,6 +98,17 @@
     }
   }
 
+  .title-figure{
+    float: none;
+    width: 100%;
+
+  }
+  .figure-3{
+    float: none;
+    width:80%;
+    margin:0 auto;
+    text-align: center;
+  }
 }
 
 @media screen and(max-width: 500px){
